@@ -43,9 +43,7 @@ then
     if [[ ! $look_up_another_phrase = "Y" ]] && [[ ! $look_up_another_phrase = "y" ]]
     then
       this_is_the_final_round=1
-    else
       echo "Ok, goodbye!"
-      exit
     fi
   done
 fi
